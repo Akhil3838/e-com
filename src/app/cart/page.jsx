@@ -139,7 +139,7 @@ function page() {
           </tr>
         </tbody>
       </table>
-      <a href="checkout.html" className="btn btn-dark btn-outline-hover-dark">Proceed to checkout</a>
+      <a href="/checkout" className="btn btn-dark btn-outline-hover-dark">Proceed to checkout</a>
     </div>
   </div>
 </div>

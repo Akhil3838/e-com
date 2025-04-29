@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 function Login() {
   return (
@@ -13,7 +15,16 @@ function Login() {
                 
                 {/* Centered image */}
                 <div className="text-center mb-3">
-                  <Image src="/images/favicon.webp" width={50} height={50} alt="Logo" />
+                <Link href="/">
+    <Image
+      src="/images/logo1.png"
+      alt="Learts Logo"
+      width={150} // adjust to your design
+      height={100} // adjust to your design
+      priority // optional: for faster loading
+    />
+  </Link>
+
                 </div>
 
                 <div className="login-register-title text-center">
@@ -36,10 +47,10 @@ function Login() {
                       <div className="col-12 learts-mb-50">
                         <div className="row learts-mb-n20">
                           <div className="col-12 learts-mb-20">
-                            <div className="form-check">
-                              <input type="checkbox" className="form-check-input" id="rememberMe" />
-                              <label className="form-check-label" htmlFor="rememberMe">Remember me</label>
-                            </div>
+                          <h6 className="mt-3">
+  Don't have an account? <a href="/register">Sign Up</a>
+</h6>
+
                           </div>
                           <div className="col-12 learts-mb-20">
                             <a href="lost-password.html" className="fw-400">Lost your password?</a>

@@ -1,5 +1,8 @@
 "use client";
 import React from 'react';
+import Image from 'next/image'
+import Link from 'next/link'
+
 
 function Footer() {
   return (
@@ -10,7 +13,15 @@ function Footer() {
 
             <div className="col-lg-6 learts-mb-40">
                 <div className="widget-about">
-                    <img src="/images/logo/logo-2.webp" alt="" />
+                <Link href="/">
+    <Image
+      src="/images/logo1.png"
+      alt="Learts Logo"
+      width={150} // adjust to your design
+      height={100} // adjust to your design
+      priority // optional: for faster loading
+    />
+  </Link>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque recusandae commodi mollitia facere iure nisi, laudantium quis quas perferendis a minus dolores.</p>
                 </div>
             </div>
@@ -19,9 +30,9 @@ function Footer() {
                 <div className="row">
                     <div className="col">
                         <ul className="widget-list">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Store location</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/">About us</a></li>
+                            <li><a href="/shopping">Shop</a></li>
+                            <li><a href="/">Contact us</a></li>
                             <li><a href="/login">Orders</a></li>
                         </ul>
                     </div>

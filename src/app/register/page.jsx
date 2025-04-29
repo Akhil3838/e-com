@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 function register() {
   return (
@@ -13,7 +15,15 @@ function register() {
                 
                 {/* Centered image */}
                 <div className="text-center mb-3">
-                  <Image src="/images/favicon.webp" width={50} height={50} alt="Logo" />
+                <Link href="/">
+    <Image
+      src="/images/logo1.png"
+      alt="Learts Logo"
+      width={150} // adjust to your design
+      height={100} // adjust to your design
+      priority // optional: for faster loading
+    />
+  </Link>
                 </div>
 
                 <div className="login-register-title text-center">

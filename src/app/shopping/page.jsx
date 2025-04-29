@@ -298,9 +298,9 @@ function Shopping() {
 
     </div>
     {/* Products End */}
-    <div className="text-center learts-mt-70">
+    {/* <div className="text-center learts-mt-70">
       <a href="#" className="btn btn-dark btn-outline-hover-dark"><i className="ti-plus"></i> More</a>
-    </div>
+    </div> */}
   </div>
 </div>
 

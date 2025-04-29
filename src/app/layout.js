@@ -42,7 +42,6 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-
         {/* Vendor JS */}
         <Script src="/js/vendor/modernizr-3.6.0.min.js" />
         <Script src="/js/vendor/jquery-3.4.1.min.js" />
@@ -74,6 +73,7 @@ export default function RootLayout({ children }) {
 
         {/* Main Activation JS */}
         <Script src="/js/main.js" />
+
       </body>
     </html>
   );
