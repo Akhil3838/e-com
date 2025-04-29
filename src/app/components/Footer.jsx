@@ -22,7 +22,7 @@ function Footer() {
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Store location</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="#">Orders</a></li>
+                            <li><a href="/login">Orders</a></li>
                         </ul>
                     </div>
                     <div className="col">
@@ -266,7 +266,7 @@ function Footer() {
                                 <a href="#">product</a>
                               </li>
                               <li>
-                                <a href="#">learts</a>
+                                <a href="#">login</a>
                               </li>
                             </ul>
                           </td>
