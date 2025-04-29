@@ -12,7 +12,7 @@ function Header() {
 
             {/* Header Logo Start */}
             <div className="col-auto">
-            <div className="header-logo">
+            <div className="header-logo p-2">
   <Link href="/">
     <Image
       src="/images/logo1.png"
@@ -82,7 +82,7 @@ function Header() {
 
       {/* Header Logo Start */}
       <div className="col-xl-auto col">
-        <div className="header-logo">
+        <div className="header-logo p-2">
         <Link href="/">
     <Image
       src="/images/logo1.png"
