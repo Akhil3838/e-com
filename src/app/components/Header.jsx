@@ -33,9 +33,9 @@ function Header() {
                   </li>
                   <li className="has-childre"><a href="/shopping"><span className="menu-text">Shop</span></a>
                   </li>
-                  <li className="has-childre"><a href="/"><span className="menu-text">About Us</span></a>
+                  <li className="has-childre"><a href="/aboutus"><span className="menu-text">About Us</span></a>
                   </li>
-                  <li className="has-childre"><a href="/"><span className="menu-text">Contact Us</span></a>
+                  <li className="has-childre"><a href="/contact"><span className="menu-text">Contact Us</span></a>
                   </li>
                   <li className="has-childre"><a href="/login"><span className="menu-text">Login</span></a>
                   </li>
@@ -104,9 +104,9 @@ function Header() {
                   </li>
                   <li className="has-childre"><a href="/shopping"><span className="menu-text">Shop</span></a>
                   </li>
-                  <li className="has-childre"><a href="/"><span className="menu-text">About Us</span></a>
+                  <li className="has-childre"><a href="/aboutus"><span className="menu-text">About Us</span></a>
                   </li>
-                  <li className="has-childre"><a href="/"><span className="menu-text">Contact Us</span></a>
+                  <li className="has-childre"><a href="/contact"><span className="menu-text">Contact Us</span></a>
                   </li>
                   <li className="has-childre"><a href="/login"><span className="menu-text">Login</span></a>
                   </li>

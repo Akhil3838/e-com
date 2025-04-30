@@ -4,7 +4,7 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Learts – Handmade Shop eCommerce HTML Template",
+  title: "Namputhiris – Handmade Shop ",
   description: "",
   robots: "noindex, follow",
 };
@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.webp" />
+        {/* <link rel="shortcut icon" type="image/x-icon" href="/images/logo1.png" /> */}
+        {/* <link rel="icon" href="/images/logo1.png" type="image/png" /> */}
+        <link rel="icon" href="/images/logo1.png" type="image/png" sizes="32x32" />
+
 
         {/* Vendor CSS */}
         <link rel="stylesheet" href="/css/vendor/bootstrap.min.css" />
